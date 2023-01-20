@@ -7,7 +7,8 @@ static int min_width = 500;                    /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
 	"monospace:size=10",
-	"JoyPixels:pixelsize=10:antialias=true:autohint=true"
+	"NotoColorEmoji:pixelsize=15:antialias=true:autohint=true",
+	"fontawesome-webfont:pixelsize=15"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
