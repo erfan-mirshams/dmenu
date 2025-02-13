@@ -700,6 +700,7 @@ setup(void)
 			mw = wa.width;
 		}
 	}
+	promptw = (prompt && *prompt) ? TEXTW(prompt) - lrpad / 4 : 0;
 	inputw = MIN(inputw, mw/3);
 	match();
 
